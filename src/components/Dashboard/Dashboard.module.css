@@ -1,0 +1,23 @@
+.CategoryItem{
+    max-height: 200px;
+    text-align: center;
+    padding:10px;
+    cursor: pointer;
+}
+.Stepper{
+    width:100%;
+    margin-top:10px;
+}
+.Categories__content{
+    max-height:50vh;
+    overflow:scroll;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.Categories__content::-webkit-scrollbar{
+    display:none;
+}
+.Category__active{
+    background:#4caf50 !important;
+    color:#fff !important;
+}

@@ -1,0 +1,22 @@
+.QuizMain__Buttons{
+    float:right;
+}
+.QuizQuestion{
+    min-height: 70vh;
+  
+}
+.Quiz__Buttons__Parent{
+    overflow: hidden;
+}
+.Stepper__button{
+    width:100%;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.Stepper__button::-webkit-scrollbar{
+    display: none;
+
+}
